@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/styless.css">
+    <title>CH Repuestos</title>
+</head>
+<body>
+    <header>
+        <h1>CH Repuestos</h1>
+        <a href="index.html">
+            <img src="Multimedia/logo.png" alt="imagen-logo">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="repuestos.html">Repuestos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-contacto">
+        <section class="formulario-contacto">
+            <h2>Contactanos</h2>
+            <form action="https://formspree.io/f/xvzdkbzp" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+        <section class="tabla-contacto">
+            <h2>Historial de Consultas</h2>
+            
+            <table> 
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo Electrónico</th>
+                        <th>Mensaje Corto</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4" style="text-align: center;">
+                            Mensajes pendientes de respuesta
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Juan Perez</td>
+                        <td>juan@gmail.com</td>
+                        <td>Consulta por paragolpes delantero</td>
+                        <td>Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Gomez</td>
+                        <td>maria@gmail.com</td>
+                        <td>¿Tienen stock de optica derecha?</td>
+                        <td>Pendiente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <h4>Redes Sociales</h4>
+        <a href="instagram.com">Instagram</a>
+    </footer>
+</body>
+</html>
