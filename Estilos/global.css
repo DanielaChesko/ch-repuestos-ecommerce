@@ -11,6 +11,7 @@
     --color-azul-main: #F4F4F9;
     --color-texto-principal: #333333;
     --color-botones: #E63946;
+    --color-botones-hover: #b82632;
 }
 
 /*-------------------------------------------------------------------------------------------------- 
@@ -71,6 +72,7 @@ header nav ul li a:hover{
 
 main{
     background-color: var(--color-azul-main);
+    font-size: xx-large;
 }
 
 /*-------------------------------------------------------------------------------------------------- 

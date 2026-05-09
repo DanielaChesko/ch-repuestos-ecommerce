@@ -7,9 +7,62 @@
     height: 100vh;
     align-items: center;
     padding-top: 10rem;
+    font-size: xxx-large;
 }
 
-#formulario-contacto{
+.formulario-contacto{
+    margin: 10rem;
+    width: 30%;
+}
+
+.formulario-contacto h2{
+    margin-bottom: 1rem;
+}
+
+.formulario-contacto form{
     display: flex;
     flex-direction: column;
+}
+
+.formulario-contacto form input, textarea{
+    font-size: xx-large;
+    padding: 0.9rem;
+    border: none;
+    border-bottom: 1px black solid;
+}
+
+.formulario-contacto form button{
+    margin-top: 3rem;
+    width: 30%;
+    align-self: center;
+    height: 4rem;
+    font-size: xx-large;
+    background-color: var(--color-botones);
+    border-radius: 9px;
+    color: white;
+    border-color: brown;
+}
+
+.formulario-contacto form button:hover{
+    background-color: var(--color-botones-hover);
+}
+
+
+/*-------------------------------------------------------------------------------------------------- 
+                                        historial de consultas           
+--------------------------------------------------------------------------------------------------*/
+
+.tabla-contacto{
+    font-size: xx-large;
+    width: 40%;
+}
+
+.tabla-contacto h2{
+    margin-bottom: 2rem;
+    border-bottom: 1px rgb(161, 123, 123) solid;
+}
+
+.tabla-contacto table tr{
+    display: flex;
+    justify-content: space-between;
 }
