@@ -80,4 +80,18 @@ main{
 --------------------------------------------------------------------------------------------------*/
 footer{
     background-color: #05172b;
+    height: 8rem;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 0 3rem 1.5rem 0;
+}
+
+footer h4, a{
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
 }
