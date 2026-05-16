@@ -21,14 +21,14 @@ header{
     background-color: var(--color-azul-opaco);
     display: flex;
     justify-content: space-between;
-    height: 9rem;
+    height: 5rem;
     position: sticky;
     top: 0;
     width: 100%;
 }
 
 header a{
-    margin: 1rem 0 0 4rem;
+    margin: 0.5rem 0 0 2rem;
 }
 
 header h1{
@@ -36,7 +36,7 @@ header h1{
 }
 
 header img{
-    width: 9rem;
+    width: 5rem;
 }
 
 header nav{
@@ -46,12 +46,12 @@ header nav{
 header nav ul{
     list-style: none;
     display: flex;
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 
 header nav ul li{
-    font-size: 3rem;
-    margin: 0 2rem;
+    font-size: 1.5rem;
+    margin: 0;
     
 }
 
@@ -72,7 +72,7 @@ header nav ul li a:hover{
 
 main{
     background-color: var(--color-azul-main);
-    font-size: xx-large;
+    font-size: large;
 }
 
 /*-------------------------------------------------------------------------------------------------- 
@@ -80,14 +80,14 @@ main{
 --------------------------------------------------------------------------------------------------*/
 footer{
     background-color: #05172b;
-    height: 8rem;
-    font-size: xx-large;
+    height: 4rem;
+    font-size: medium;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    padding: 0 3rem 1.5rem 0;
+    padding: 0 1rem 1rem 0;
 }
 
 footer h4, a{

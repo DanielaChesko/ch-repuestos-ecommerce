@@ -4,19 +4,18 @@
 #main-contacto{
     display: flex;
     flex-direction: column;
-    height: 86.3vh;
+    height: 85.5vh;
     align-items: center;
-    
-    font-size: xxx-large;
+    font-size: large;
 }
 
 .formulario-contacto{
-    margin: 10rem;
+    margin: 5rem;
     width: 30%;
 }
 
 .formulario-contacto h2{
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .formulario-contacto form{
@@ -25,21 +24,21 @@
 }
 
 .formulario-contacto form input, textarea{
-    font-size: xx-large;
-    padding: 0.9rem;
+    font-size: large;
+    padding: 0.3rem;
     border: none;
-    border-bottom: 1px black solid;
-    margin-bottom: 1.5rem;
+    border-bottom: 0.5px black solid;
+    margin-bottom: 0.9rem;
 }
 
 .formulario-contacto form button{
-    margin-top: 3rem;
-    width: 30%;
+    margin-top: 0.2rem;
+    width: 25%;
     align-self: center;
-    height: 4rem;
-    font-size: xx-large;
+    height: 3rem;
+    font-size: large;
     background-color: var(--color-botones);
-    border-radius: 9px;
+    border-radius: 5px;
     color: white;
     border-color: brown;
 }
@@ -56,8 +55,7 @@
 .tabla-contacto{
     display: flex;
     flex-direction: column;
-    
-    font-size: xx-large;
+    font-size: large;
     width: 60%;
 }
 
@@ -68,12 +66,12 @@
 }
 
 .tabla-contacto h2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-bottom: 1px rgb(235, 184, 184) solid;
 }
 
 .tabla-contacto table th, td{
-    padding: 1.5rem;
+    padding: 0.5rem;
     border: 1px solid white
 }
 
