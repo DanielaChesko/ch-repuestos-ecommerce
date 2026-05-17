@@ -1,0 +1,31 @@
+.main-preguntasFrecuentes {
+    background-color: white;
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    user-select: none; 
+}
+
+.main-preguntasFrecuentes details {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.main-preguntasFrecuentes summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-azul-opaco);
+    list-style: none;
+}
+
+.main-preguntasFrecuentes p {
+    margin-top: 0.7rem;
+    color: #333333;
+    line-height: 1rem;
+    border-top: 1px solid #eeeeee;
+    padding-top: 1rem;
+}

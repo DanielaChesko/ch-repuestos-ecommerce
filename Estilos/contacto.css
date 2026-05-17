@@ -4,9 +4,9 @@
 #main-contacto{
     display: flex;
     flex-direction: column;
-    height: 85.5vh;
     align-items: center;
     font-size: large;
+    flex-grow: 1;
 }
 
 .formulario-contacto{
