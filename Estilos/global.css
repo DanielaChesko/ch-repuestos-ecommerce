@@ -101,4 +101,10 @@ footer h4, a{
     font-weight: 100;
     text-decoration: none;
     color: white;
+    margin-bottom: 0.1rem;
+}
+
+footer i{
+    margin-right: 0.3rem;
+    color: var(--color-amarillo);
 }
