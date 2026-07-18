@@ -84,7 +84,7 @@ if(contenedorRepuestos) {
             for(let producto of productos) {
                 contenedorRepuestos.innerHTML += `
                     <article class="tarjeta-producto">
-                        <img src="${producto.imagen}" alt="${producto.nombre}">
+                        <img src="${producto.imagen}" alt="foto de ${producto.nombre}">
                         <h3>${producto.nombre}</h3>
                         <p>Marca: ${producto.marca}</p>
                         <p>Modelo: ${producto.modelo}</p>
@@ -153,7 +153,7 @@ function renderizarCarrito() {
 
             contenedorCarrito.innerHTML += `
                 <div class="fila-carrito">
-                    <img src="${producto.imagen}" alt="${producto.nombre}">
+                    <img src="${producto.imagen}" alt="foto de ${producto.nombre}">
                     <div class="info-carrito">
                         <h4>${producto.nombre}</h4>
                         <p class="precio-carrito">Precio unitario: $${producto.precio}</p>
@@ -233,4 +233,16 @@ function renderizarCarrito() {
 }
     //apenas entramos a la pagina
     renderizarCarrito();
+}
+
+
+// ----------------------------- MEDIA QUERY (HEADER) -----------------------------------------
+
+const btnMenu = document.getElementById("abrir-menu");
+const menuNavegacion = document.getElementById("menu-navegacion");
+
+if(btnMenu && menuNavegacion) {
+    btnMenu.addEventListener("click", function() {
+        menuNavegacion.classList.toggle("menu-abierto");
+    });
 }

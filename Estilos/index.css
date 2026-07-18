@@ -1,0 +1,14 @@
+/* acomodar el video */
+#main-index section {
+    width: 100%;
+    height: 599px;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-index section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

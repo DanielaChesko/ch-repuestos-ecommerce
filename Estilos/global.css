@@ -56,9 +56,8 @@ header nav ul{
 }
 
 header nav ul li{
-    font-size: 1.5rem;
+    font-size: 1.3rem !important;
     margin: 0;
-    
 }
 
 header nav ul li a{
@@ -103,7 +102,7 @@ footer{
     padding: 0 1rem 1rem 0;
 }
 
-footer h4, a{
+footer h4, footer a{
     font-weight: 100;
     text-decoration: none;
     color: white;
@@ -113,4 +112,44 @@ footer h4, a{
 footer i{
     margin-right: 0.3rem;
     color: var(--color-amarillo);
+}
+
+
+
+/* ------------------------------------- MEDIA QUERY (HEADER)--------------------------------------- */
+.btn-menu {
+    display: none; 
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    .btn-menu {
+        display: block;
+    }
+
+    header nav ul {
+        position: absolute;
+        top: 5rem;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 5rem);
+        background-color: var(--color-azul-opaco);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 2rem;
+        transition: left 0.3s ease;
+        margin-right: 0; 
+    }
+
+    /* parte de JS */
+    header nav ul.menu-abierto {
+        left: 0;
+    }
 }
