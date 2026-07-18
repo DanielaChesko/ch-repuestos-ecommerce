@@ -1,0 +1,135 @@
+.productos-carrito{
+    margin: 1rem;
+}
+
+.lista-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.fila-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.fila-carrito img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.info-carrito {
+    flex: 2;
+    padding: 0 1.5rem;
+}
+
+.info-carrito h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.precio-carrito {
+    margin: 0;
+    color: #7f8c8d;
+}
+
+.controles-carrito {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 2rem;
+}
+
+.controles-carrito button {
+    background-color: #ecf0f1;
+    border: none;
+    width: 20px;
+    height: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.controles-carrito button:hover {
+    background-color: #bdc3c7;
+}
+
+.cantidad-numero {
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-width: 25px;
+    text-align: center;
+}
+
+.subtotal-carrito {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    min-width: 130px;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.2s;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+
+
+/* --------------------------------------- RESUMEN CARRITO (pago) ------------------------------------------- */
+.resumen-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #bdc3c7;
+}
+
+.total-compra {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.btn-pagar {
+    background-color: var(--color-azul-claro);
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn-pagar:hover {
+    background-color: #2980b9;
+}
