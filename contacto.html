@@ -20,6 +20,12 @@
                 <li><a href="repuestos.html">Repuestos</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                <li>
+                    <a href="#" class="icono-carrito" id="abrir-carrito">
+                        <i class="fa-solid fa-cart-shopping"></i> <!-- El ícono de FontAwesome -->
+                        <span id="contador-carrito" class="contador-burbuja">0</span> <!-- La burbuja del contador -->
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -27,15 +33,24 @@
     <main id="main-contacto">
         <section class="formulario-contacto">
             <h2>Contactanos</h2>
-            <form action="https://formspree.io/f/xvzdkbzp" method="POST">
-                <input type="text" id="nombre" name="nombre" required placeholder="Escribí tu nombre y apellido">
-                
-                <input type="email" id="email" name="email" required required placeholder="Escribí tu email">
-                
+            <form id="formulario-contacto" action="https://formspree.io/f/xvzdkbzp" method="POST">
+                <div class="caja-input">
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribí tu nombre y apellido">
+                    <span id="error-nombre" class="mensaje-error"></span>
+                </div>
+                <div class="caja-input">
+                    <input type="email" id="email" name="email" placeholder="Escribí tu email">
+                    <span id="error-email" class="mensaje-error"></span>
+                </div>
+
                 <label for="mensaje">Mensaje:</label>
-                <textarea style="max-width: 100%;" id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                <div class="caja-input">
+                    <textarea style="max-width: 100%;" id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+                    <span id="error-mensaje" class="mensaje-error"></span>
+                </div>
                 
-                <button type="submit">Enviar mensaje</button>
+                    <button type="submit">Enviar</button>
+                
             </form>
         </section>
 
@@ -79,5 +94,7 @@
         <h4>Redes Sociales</h4>
         <a href="instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

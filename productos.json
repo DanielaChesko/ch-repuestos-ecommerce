@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Spoiler / Alerón Trasero",
+        "marca": "Toyota",
+        "modelo": "2024",
+        "precio": 120000,
+        "imagen": "Multimedia/spoiler-toyota.jpg",
+        "categoria": "Carrocería"
+    },
+    {
+        "id": 2,
+        "nombre": "Óptica Delantera Derecha",
+        "marca": "Peugeot",
+        "modelo": "2017",
+        "precio": 85000,
+        "imagen": "Multimedia/optica-peugeot.jpg",
+        "categoria": "Iluminación"
+    },
+    {
+        "id": 3,
+        "nombre": "Paragolpes Delantero",
+        "marca": "Volkswagen",
+        "modelo": "2021",
+        "precio": 145000,
+        "imagen": "Multimedia/paragolpes-vw.jpg",
+        "categoria": "Carrocería"
+    },
+    {
+        "id": 4,
+        "nombre": "Filtro de Aceite",
+        "marca": "Fram",
+        "modelo": "Universal",
+        "precio": 12000,
+        "imagen": "Multimedia/filtro-aceite.jpg",
+        "categoria": "Mantenimiento"
+    },
+    {
+        "id": 5,
+        "nombre": "Correa de Distribución",
+        "marca": "Gates",
+        "modelo": "K015489XS",
+        "precio": 38000,
+        "imagen": "Multimedia/correa-distribucion.jpg",
+        "categoria": "Motor"
+    },
+    {
+        "id": 6,
+        "nombre": "Pastillas de Freno (Set)",
+        "marca": "Fras-le",
+        "modelo": "Cobalt/Spin",
+        "precio": 45000,
+        "imagen": "Multimedia/pastillas-freno.png",
+        "categoria": "Frenos"
+    }
+]

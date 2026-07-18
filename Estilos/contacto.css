@@ -1,3 +1,10 @@
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 /*-------------------------------------------------------------------------------------------------- 
                                         Formulario           
 --------------------------------------------------------------------------------------------------*/
@@ -11,7 +18,7 @@
 
 .formulario-contacto{
     margin: 5rem;
-    width: 30%;
+    width: 40%;
 }
 
 .formulario-contacto h2{
@@ -21,21 +28,41 @@
 .formulario-contacto form{
     display: flex;
     flex-direction: column;
+    width: fit-content;
 }
 
 .formulario-contacto form input, textarea{
-    font-size: large;
+    font-size: medium;
+    width: 25vw;
     padding: 0.3rem;
     border: none;
     border-bottom: 0.5px black solid;
-    margin-bottom: 0.9rem;
+}
+
+.caja-input {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.mensaje-error {
+    color: rgb(240, 91, 91);
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 15px);
+    white-space: nowrap;
 }
 
 .formulario-contacto form button{
     margin-top: 0.2rem;
-    width: 25%;
+    width: 40%;
     align-self: center;
-    height: 3rem;
+    height: 2.5rem;
     font-size: large;
     background-color: var(--color-botones);
     border-radius: 5px;
